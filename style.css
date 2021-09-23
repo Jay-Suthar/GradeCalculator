@@ -119,7 +119,7 @@ body{
     }
 }
 
-@media (min-width: 400px) and (max-width:622px)
+@media (min-width: 500px) and (max-width:622px)
 {
     #part1{
         display: flex;
@@ -127,11 +127,15 @@ body{
     }
 
     #show-data{
-        padding: 10px 30px;
+        padding: 10px;
+    }
+
+    #btn{
+        font-size: 20px;
     }
     #left-half img{
-        width: 300px;
-        margin: 20px;
+        width: 270px;
+        margin: 15px;
         /* border: 5px solid black;
         border-radius: 10px; */
     }
@@ -143,6 +147,17 @@ body{
         justify-content: center;
         margin: 0px 60px;
     }
+    #right-half input{
+        width: 270px;
+        font-size: 15px;
+    }
+    .line{
+        width: 270px;
+    }
+
+    #show-data{
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 400px) and (max-width:500px)
@@ -153,11 +168,11 @@ body{
     }
 
     #show-data{
-        padding: 10px 30px;
+        padding: 10px;
     }
     #left-half img{
-        width: 300px;
-        margin: 20px;
+        width: 230px;
+        margin: 10px;
         /* border: 5px solid black;
         border-radius: 10px; */
     }
@@ -168,5 +183,70 @@ body{
         align-items: center;
         justify-content: center;
         margin: 0px 40px;
+    }
+    #right-half input{
+        width: 230px;
+        font-size: 15px;
+    }
+    #btn{
+        font-size: 15px;
+    }
+    .line{
+        width: 230px;
+    }
+    #show-data{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 200px) and (max-width:400px)
+{
+    #part1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #show-data{
+        padding: 10px;
+        /* margin: 0px 20px */
+    }
+    #left-half img{
+        width: 130px;
+        margin: 10px;
+        /* border: 5px solid black;
+        border-radius: 10px; */
+    }
+
+    #left-half{
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 40px;
+    }
+    #right-half input{
+        width: 130px;
+        font-size: 10px;
+    }
+    #btn{
+        font-size: 15px;
+    }
+
+    .line{
+        width: 130px;
+    }
+    #show-data{
+        font-size: 15px;
+    }
+    #left-half {
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 20px;
+    }
+
+    .mid-section{
+        margin: 100px 40px;
     }
 }
